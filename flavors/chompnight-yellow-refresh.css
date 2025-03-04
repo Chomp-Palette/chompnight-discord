@@ -1,0 +1,122 @@
+/**
+ * @name Chompnight (Green)
+ * @description Chomp Palette Green Discord Theme (https://github.com/Chomp-Palette)
+ * @description Chomp Palette Green Discord Theme (https://github.com/Chomp-Palette)
+ * @author Alexxami
+ * @version 1.0
+ * @invite 2Fr2bg4XF4
+ * @website https://github.com/refact0r/midnight-discord
+ * @source
+ * @authorId 743896907184734268
+ * @authorLink https://github.com/Alexxami
+ */
+
+/* import theme modules */
+@import url('https://refact0r.github.io/midnight-discord/src/main.css'); /* main theme css. */
+@import url('https://refact0r.github.io/midnight-discord/src/colors.css'); /* adds custom colors. remove this line to get default colors. */
+@import url('https://refact0r.github.io/midnight-discord/src/animations.css'); /* adds animations. remove to disable animations. */
+
+/* customize things here */
+:root {
+	/* font, change to '' for default discord font */
+	--font: 'figtree';
+
+	/* spacing between panels */
+	--gap: 12px;
+
+	/* thickness of unread messages divider and highlighted message borders */
+	--divider-thickness: 4px;
+
+	/* transitions */
+	--list-item-transition: 0.2s ease;
+
+	/* text colors */
+	--text-0: var(--bg-3); /* text on colored elements */
+	--text-1: var(--text); /* other normally white text */
+	--text-2: var(--text); /* headings and important text */
+	--text-3: var(--text); /* normal text */
+	--text-4: var(--text); /* icon buttons and channels */
+	--text-5: var(--text); /* muted channels/chats and timestamps */
+
+	/* background and dark colors */
+	--bg-1: var(--border); /* dark buttons when clicked */
+	--bg-2: var(--base); /* dark buttons */
+	--bg-3: var(--border); /* spacing, secondary elements */
+	--bg-4: var(--base); /* main background color */
+	--hover: var(--border); /* channels and buttons when hovered */
+	--active: var(--dark-4); /* channels and buttons when clicked or selected */
+	--active-2: var(--dark-4); /* extra state for transparent buttons */
+	--message-hover: var(--dark-4-trans); /* messages when hovered */
+
+	/* accent colors */
+	--accent-1: var(--dark-4); /* links and other accent text */
+	--accent-2: var(--dark-4); /* small accent elements */
+	--accent-3: var(--dark-4); /* accent buttons */
+	--accent-4: var(--dark-4); /* accent buttons when hovered */
+	--accent-5: var(--dark-4); /* accent buttons when clicked */
+	--mention: linear-gradient(
+		to right,
+		color-mix(in hsl, var(--accent-2), transparent 90%) 60%,
+							   transparent
+	); /* background of messages that mention you */
+	--mention-hover: linear-gradient(
+		to right,
+		color-mix(in hsl, var(--accent-2), transparent 95%) 60%,
+									 transparent
+	); /* background of messages that mention you when hovered */
+	--accent-new: var(--accent-2); /* stuff that's normally red like mute/deafen buttons */
+
+	/* status indicator colors */
+	--online: var(--green-2); /* change to #44a25b for default */
+	--dnd: var(--red-2); /* change to #d83a42 for default */
+	--idle: var(--yellow-2); /* change to #c99656 for default */
+	--streaming: var(--dark-4); /* change to #593695 for default */
+	--offline: var(--text-4); /* change to #83838b for default offline color */
+
+	/* border colors */
+	--border-light: var(--border); /* light border color */
+	--border: var(--border); /* normal border color */
+	--button-border: var(--border);
+
+	/* base colors */
+
+	--red-1: var(--dark-4);
+	--red-2: var(--dark-4);
+	--red-3: var(--dark-4);
+	--red-4: var(--dark-4);
+	--red-5: var(--dark-4);
+
+
+	--green-1: var(--dark-4);
+	--green-2: var(--dark-4);
+	--green-3: var(--dark-4);
+	--green-4: var(--dark-4);
+	--green-5: var(--dark-4);
+
+
+	--blue-1: var(--dark-4) ;
+	--blue-2: var(--dark-4) ;
+	--blue-3: var(--dark-4) ;
+	--blue-4: var(--dark-4) ;
+	--blue-5: var(--dark-4) ;
+
+
+	--yellow-1: var(--dark-4);
+	--yellow-2: var(--dark-4);
+	--yellow-3: var(--dark-4);
+	--yellow-4: var(--dark-4);
+	--yellow-5: var(--dark-4);
+
+
+	--purple-1: var(--dark-4);
+	--purple-2: var(--dark-4);
+	--purple-3: var(--dark-4);
+	--purple-4: var(--dark-4);
+	--purple-5: var(--dark-4);
+
+	--base: #c5c08f;
+	--border: #d5d3b4;
+	--text: #7b7600;
+	--dark-4: #8b8149; /* [color] dark 4*/
+	--dark-4-trans: #8b81498a; /* dark 4 but transparent*/
+}

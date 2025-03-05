@@ -3,19 +3,19 @@ A recolor of the MIdnight-discord theme (Refact0r)
 
 <details>
 <summary>Red</summary>
-<img src="assets/red.png"/>
+<img src="assets/red.jpg"/>
 </details>
 <details>
 <summary>Green</summary>
-<img src="assets/green.png"/>
+<img src="assets/green.jpg"/>
 </details>
 <details>
 <summary>Yellow</summary>
-<img src="assets/yellow.png"/>
+<img src="assets/yellow.jpg"/>
 </details>  
 <details>
 <summary>Purple</summary>
-<img src="assets/purple.png"/>
+<img src="assets/purple.jpg"/>
 </details>
 
 # Install
